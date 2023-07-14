@@ -5,6 +5,10 @@ local win = DiscordLib:Window("Discord")
 
 local serv = win:Server("Universal Hub", "http://www.roblox.com/asset/?id=6855373483")
 
+local wlc = serv:Channel("Welcome")
+
+wlc:Label("Thanks for executing the script!")
+
 local admin = serv:Channel("Admin")
 
 admin:Button(
