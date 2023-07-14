@@ -9,6 +9,9 @@ local wlc = serv:Channel("Welcome")
 
 wlc:Label("Thanks for executing the script!")
 
+wlc:Label("This is made by itstimmy1382 on Discord.")
+
+
 local admin = serv:Channel("Admin")
 
 admin:Button(
